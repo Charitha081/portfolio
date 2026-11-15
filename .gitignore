@@ -1,0 +1,6 @@
+# Dependencies & System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Server scripts if local only (or keep them if helpful)

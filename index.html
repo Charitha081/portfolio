@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charithasree Marrimekala | AI & ML Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">Charithasree<span>.M</span></a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn-sm btn-primary">Get in Touch</a>
+      </nav>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-badge">🤖 AI & ML Student @ Jain University</div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Charitha Sree Marrimekala</span>
+        </h1>
+        <p class="hero-subtitle">
+          Undergraduate student specializing in <strong>Artificial Intelligence & Machine Learning</strong> at Jain (Deemed-to-be University). Passionate about Graph Neural Networks, mathematical foundations, and developing intelligent computational systems.
+        </p>
+        <div class="hero-actions">
+          <a href="#certifications" class="btn btn-primary">View LinkedIn Certifications</a>
+          <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Bridging Theory, Data & Intelligent Algorithms</h2>
+          <p class="section-subtitle">A focused journey in AI, mathematical modeling, and software engineering.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">🧠</div>
+            <h3>AI & Deep Learning</h3>
+            <p>Fascinated by graph representation learning, neural architectures, and developing models that extract deep relational intelligence from complex data.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">📐</div>
+            <h3>Mathematical Rigor</h3>
+            <p>Grounded in discrete mathematics, logic, probability, and linear algebra that form the core theoretical backbone of modern machine learning.</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">💡</div>
+            <h3>Hands-On Engineering</h3>
+            <p>Eager to apply coursework and continuous certifications to practical code, innovative problem-solving, and impactful technical solutions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Education</span>
+          <h2 class="section-title">Academic Background</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-year">Present</span>
+              <h3>Jain (Deemed-to-be University)</h3>
+              <p class="timeline-degree">Undergraduate Program in Artificial Intelligence & Machine Learning (AI & ML)</p>
+              <p class="timeline-desc">
+                Curriculum includes Machine Learning, Graph Neural Networks, Neural Networks, Discrete Mathematics, Data Structures & Algorithms, Object-Oriented Programming, and Design Thinking.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Verified Credentials</span>
+          <h2 class="section-title">LinkedIn Learning Certifications</h2>
+          <p class="section-subtitle">Official verified certifications completed by Charitha Sree Marrimekala on LinkedIn Learning.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Certificate 1: Graph Neural Networks -->
+          <div class="cert-card">
+            <div class="cert-preview-wrapper" onclick="openCertModal('assets/certificates/cert-graph-neural-networks.jpg', 'Learning Graph Neural Networks')">
+              <img src="assets/certificates/cert-graph-neural-networks.jpg" alt="Learning Graph Neural Networks - LinkedIn Learning" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-badge-row">
+                <span class="cert-badge linkedin-badge">LinkedIn Learning</span>
+                <span class="cert-time">2 hrs 13 mins</span>
+              </div>
+              <h3>Learning Graph Neural Networks</h3>
+              <p class="cert-date">Completed on Nov 06, 2026</p>
+              <div class="cert-skills">
+                <span class="cert-skill-pill">Neural Networks</span>
+                <span class="cert-skill-pill">Graph Networks</span>
+                <span class="cert-skill-pill">Artificial Intelligence (AI)</span>
+              </div>
+              <p class="cert-meta">
+                <strong>Credential ID:</strong> <span class="cert-id" title="93f8052da36d1c27dfef8653782ad8bc171d767f31b3dcf68e8e44de21cb402f">93f8052da3...cb402f</span>
+              </p>
+              <div class="cert-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary" onclick="openCertModal('assets/certificates/cert-graph-neural-networks.jpg', 'Learning Graph Neural Networks')">View Full Certificate</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate 2: Discrete Mathematics -->
+          <div class="cert-card">
+            <div class="cert-preview-wrapper" onclick="openCertModal('assets/certificates/cert-discrete-mathematics.png', 'Programming Foundations: Discrete Mathematics')">
+              <img src="assets/certificates/cert-discrete-mathematics.png" alt="Programming Foundations: Discrete Mathematics - LinkedIn Learning" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span>🔍 Click to View Certificate</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-badge-row">
+                <span class="cert-badge linkedin-badge">LinkedIn Learning</span>
+                <span class="cert-time">3 hrs 9 mins</span>
+              </div>
+              <h3>Programming Foundations: Discrete Mathematics</h3>
+              <p class="cert-date">Completed on Sep 02, 2026</p>
+              <div class="cert-skills">
+                <span class="cert-skill-pill">Discrete Mathematics</span>
+                <span class="cert-skill-pill">Programming Foundations</span>
+              </div>
+              <p class="cert-meta">
+                <strong>Credential ID:</strong> <span class="cert-id" title="acca66b2d8969eb0102f0766470cd8837250941315a8682c385be78fda5a5178">acca66b2d8...5a5178</span>
+              </p>
+              <div class="cert-footer">
+                <button type="button" class="btn btn-sm btn-outline-primary" onclick="openCertModal('assets/certificates/cert-discrete-mathematics.png', 'Programming Foundations: Discrete Mathematics')">View Full Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competencies</span>
+          <h2 class="section-title">Technical Expertise</h2>
+          <p class="section-subtitle">Skills honed through coursework, certifications, and active development.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="skill-header">
+              <span class="skill-icon">🧬</span>
+              <h3>Artificial Intelligence & ML</h3>
+            </div>
+            <div class="pill-group">
+              <span class="pill pill-accent">Graph Neural Networks</span>
+              <span class="pill pill-accent">Neural Networks</span>
+              <span class="pill">Machine Learning</span>
+              <span class="pill">Deep Learning</span>
+              <span class="pill">AI Principles</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-header">
+              <span class="skill-icon">📐</span>
+              <h3>Foundations & Mathematics</h3>
+            </div>
+            <div class="pill-group">
+              <span class="pill pill-accent">Discrete Mathematics</span>
+              <span class="pill">Data Structures</span>
+              <span class="pill">Algorithms</span>
+              <span class="pill">Set Theory & Logic</span>
+              <span class="pill">Problem Solving</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-header">
+              <span class="skill-icon">💻</span>
+              <h3>Programming & Development</h3>
+            </div>
+            <div class="pill-group">
+              <span class="pill">Python</span>
+              <span class="pill">Java</span>
+              <span class="pill">HTML5 & CSS3</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Projects</span>
+          <h2 class="section-title">Featured Academic Work</h2>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-tag">AI / Machine Learning</div>
+            <h3>Graph Neural Network Applications</h3>
+            <p>Exploration of relational learning and node classification using Graph Neural Network architectures, leveraging graph topology to predict complex system relationships.</p>
+            <div class="project-tech">
+              <span>GNNs</span>
+              <span>Python</span>
+              <span>Deep Learning</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-tag">Web Development</div>
+            <h3>Modern Responsive Portfolio</h3>
+            <p>Clean, high-performance portfolio application built with modern minimal UI/UX, integrated credential viewer, and interactive contact system.</p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-tag">Academic Coursework</div>
+            <h3>Discrete Mathematics & Algorithm Design</h3>
+            <p>Theoretical and algorithmic problem formulations covering combinatorics, graph theory, and discrete structures applied to computation.</p>
+            <div class="project-tech">
+              <span>Discrete Math</span>
+              <span>Graph Theory</span>
+              <span>Logic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Interested in collaborating on AI/ML projects or discussing academic opportunities? Feel free to reach out.</p>
+        </div>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3>Contact Details</h3>
+            <p>I am always open to exploring research ideas, student hackathons, and innovative machine learning projects.</p>
+            
+            <div class="contact-items">
+              <div class="contact-item">
+                <span class="icon">🎓</span>
+                <div>
+                  <strong>Institution</strong>
+                  <p>Jain (Deemed-to-be University)</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="icon">📍</span>
+                <div>
+                  <strong>Location</strong>
+                  <p>Bengaluru, Karnataka, India</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="icon">💼</span>
+                <div>
+                  <strong>LinkedIn Verified Name</strong>
+                  <p>Charitha Sree Marrimekala</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form" action="https://formsubmit.co/ajax/pasupuletirohith442007@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="e.g. Dr. / Prof. / Alex" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="you@domain.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry / Collaboration" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Share your message or proposal..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            <div id="form-status" class="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Certificate Lightbox Modal -->
+  <div id="cert-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" onclick="closeCertModal()"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modal-title">Certificate Preview</h3>
+        <button type="button" class="modal-close" onclick="closeCertModal()" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="modal-image" src="" alt="Certificate Preview">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 <strong>Charitha Sree Marrimekala</strong> (Charithasree M). All rights reserved.</p>
+      <p class="footer-sub">Student of Artificial Intelligence & Machine Learning &bull; Jain (Deemed-to-be University)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
